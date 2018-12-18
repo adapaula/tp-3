@@ -1,0 +1,133 @@
+body {
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+     text-align: center;
+  }
+
+.contenedor-tabla {
+margin-top: 50px;
+ }
+.contenedor-pago {
+    width: 60%;
+    margin: auto;
+}
+.agregar-productos {
+    display: flex;
+    margin: auto;
+}
+.botonera, .agregar-productos, .espera-msj {
+    display: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-borrar {
+    color: #fb4f70;
+    background-color: white;
+    border: none;
+    padding: 12px 8px;
+    font-size: 20px;
+    border: none;
+    padding: 5px 8px;
+}
+.newid {
+    display: none;
+}
+.item {
+    padding: 10px 100px;
+}
+.btn-ingresar, .btn-agregar, .btn-calcular {
+    background: -webkit-linear-gradient(top left, #ffa966, #fb4f70);
+    color: white;
+    padding: 12px 20px;
+    cursor:pointer;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+       }
+       .btn-calcular {
+        display: none;
+        margin: 20px;
+        }
+.btn-comprar, .btn-ayuda, .btn-baja, .btn-salir, .btn-deuda {
+    color: black;
+    background-color: #f1f1f1;
+    padding: 12px 25px;
+    cursor:pointer;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+}
+.input-precio {
+    color: black;
+    background-color: white;
+    padding: 12px 25px;
+    cursor:pointer;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #c8c8c8;
+    width: 15%;
+
+ }
+
+    .medios-pago, .medios-cuotas  {
+        color: black;
+        background-color: white;
+        padding: 12px 25px;
+        cursor:pointer;
+        border: none;
+        font-family: 'Raleway', sans-serif;
+        border: 1px solid #c8c8c8;
+        width: 15%;
+        margin: 20px;
+
+        }
+
+        .btn-deuda:hover {
+            background-color: #e2e2e2; 
+            color: black;
+          }
+          .btn-salir:hover {
+            background-color: #e2e2e2; 
+            color: black;
+          }
+          .btn-baja:hover {
+            background-color: #e2e2e2; 
+            color: black;
+          }
+          .btn-ayuda:hover {
+            background-color: #e2e2e2; 
+            color: black;
+          }
+          .btn-comprar:hover {
+            background-color: #e2e2e2; 
+            color: black;
+          }
+
+.input-nombre, .input-producto, .medios-pago, .medios-cuotas {
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    width: 350px;
+    padding: 10px;
+       }
+      .tabla-productos {
+        font-family: 'Raleway', sans-serif;
+        margin: auto;
+      }
+.txt-subtotal, .txt-total {
+    display: none;
+    background-color: #f5f5f5;
+        padding: 10px 17px;
+    font-weight: bold;
+    color: #424c6f;
+    font-size: 20px;
+}
+
+.precio-final {
+        font-family: 'Raleway', sans-serif;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #424c6f;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 18px;
+}

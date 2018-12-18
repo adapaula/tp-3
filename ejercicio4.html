@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  
+
+    <title>Ejercicio 4</title>
+</head>
+
+    <div class="poner-nombre">
+        <input type="text" class="input-nombre" placeholder="Usuari@" id="nombre-comprador">
+        <button id="ingresar" class="btn-ingresar"><i class="far fa-user"></i> Ingresar</button>
+        <p class="espera-msj">Sera atendido en instantes</p>
+        <div id="error">
+            
+        </div> 
+    </div>
+
+<div class="contenedor">
+    <div class="botonera">
+        <button id="comprar" class="btn-comprar">Comprar nuevos productos</button>
+        <button id="ayuda" class="btn-ayuda">Solicitar ayuda</button>
+        <button id="baja" class="btn-baja">Dar la baja</button>
+        <button id="deuda" class="btn-deuda">Conocer su deuda</button>
+        <button id="salir" class="btn-salir">Salir</button>
+        <p class="espera-msj">Sera atendido en instantes</p> 
+    </div>
+  
+    <div class=contenedor-tabla>
+        
+         <div class="agregar-productos">
+            <input type="text" name="producto" placeholder="Agrega un producto" id="inputProducto" class="input-producto">
+            <input type="number" name="precio" placeholder="Precio" id="inputPrecio"class="input-precio">
+            <button id="add" class="btn-agregar">Agregar</button>
+        </div>   
+
+        <table class="tabla-productos" id="listaProducto"> </table>
+        <div class="pagar-subtotal"> </div>
+
+    </div>
+</div>
+
+<div class="contenedor-pago">
+    
+    <button id="calcular" class="btn-calcular">CALCULAR</button>
+
+    <p class="txt-subtotal" id="valorDelPago"></p>
+
+    <select name="medios-pago" class="medios-pago">
+        <option selected>Elige un medio de pago</option>
+        <option value="Efectivo">Efectivo</option>
+        <option value="Débito">Débito</option>
+        <option value="Crédito">Crédito</option>
+        <option value="Cheque">Cheque</option>
+    </select>
+
+    <select name="medios-cuotas" class="medios-cuotas">
+        <option selected>Opciones de cuotas</option>
+        <option value="1 Cuota">1 cuota</option>
+        <option value="12 Cuotas">12 cuotas fijas 20%</option>
+        <option value="24 Cuotas">24 cuotas fijas 45%</option>
+        <option value="36 Cuotas">36 cuotas fijas 70%</option>
+    </select>
+
+    <button class="precio-final" id="precioFinal">Calcular total a pagar</button>
+    <p class="txt-total" id="valorDelPago"></p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="ejercicio4.js"></script>    
+</body>
+</html>
